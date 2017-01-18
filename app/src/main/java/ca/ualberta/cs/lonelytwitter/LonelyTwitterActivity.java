@@ -47,6 +47,14 @@ public class LonelyTwitterActivity extends Activity {
 			arrayList.add(importantTweet);
 			arrayList.add(normalTweet);
 
+			Mood happy = new mood1();
+			Mood sad = new mood2();
+
+			tweet.moodList.add(happy);
+			importantTweet.moodList.add(sad);
+			normalTweet.moodList.add(happy);
+			normalTweet.moodList.add(sad);
+
 
 
 

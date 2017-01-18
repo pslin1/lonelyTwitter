@@ -7,15 +7,13 @@ import java.util.Date;
  */
 
 public class mood2 extends Mood {
-    public mood2(Date date, String mood) {
-        super(date, mood);
+    public mood2(Date date) {
+        super(date);
     }
 
-    public mood2(String mood) {
-        super(mood);
+    public mood2() {
     }
 
-    @Override
     public String getMood() {
         return "I am sad";
     }

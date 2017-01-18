@@ -10,17 +10,19 @@ import java.util.Date;
 
 public abstract class Mood {
     private Date date;
-    private String mood;
 
-    public Mood (Date date, String mood) {
+
+    public Mood (Date date) {
         this.date = date;
-        this.mood = mood;
+
     }
 
-    public Mood (String mood) {
+    public Mood () {
         this.date = new Date();
-        this.mood = mood;
+
     }
+
+    public abstract String getMood();
 
     public Date getDate() {
         return date;
@@ -29,14 +31,5 @@ public abstract class Mood {
     public void setDate(Date date) {
         this.date = date;
     }
-
-    public String getMood() {
-        return mood;
-    }
-
-    public void setMood(String mood) {
-        this.mood = mood;
-    }
-
 
 }

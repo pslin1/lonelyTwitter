@@ -48,6 +48,8 @@ public class LonelyTwitterActivity extends Activity {
 			arrayList.add(normalTweet);
 
 
+
+
 		} catch (TweetTooLongException e) {
 			e.printStackTrace();
 		}

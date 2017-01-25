@@ -47,4 +47,9 @@ public abstract class Tweet implements Tweetable{
         }
         this.message = message;
     }
+
+    @Override
+    public String toString() {
+        return date.toString() + " | " + message;
+    }
 }

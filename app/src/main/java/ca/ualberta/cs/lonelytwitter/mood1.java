@@ -3,6 +3,7 @@ package ca.ualberta.cs.lonelytwitter;
 import java.util.Date;
 
 /**
+ * Inherits from mood
  * Created by pslin on 1/17/17.
  */
 public class mood1 extends Mood {

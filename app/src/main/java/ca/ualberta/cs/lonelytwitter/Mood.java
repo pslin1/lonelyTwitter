@@ -5,6 +5,7 @@ import android.text.method.DateKeyListener;
 import java.util.Date;
 
 /**
+ * Superclass and abstract
  * Created by pslin on 1/17/17.
  */
 public abstract class Mood {

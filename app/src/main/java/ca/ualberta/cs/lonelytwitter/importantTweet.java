@@ -5,12 +5,24 @@ import java.util.Date;
 /**
  * Created by pslin on 1/17/17.
  */
-
 public class importantTweet extends Tweet {
+    /**
+     * Instantiates a new Important tweet.
+     *
+     * @param date    the date
+     * @param message the message
+     * @throws TweetTooLongException the tweet too long exception
+     */
     public importantTweet(Date date, String message) throws TweetTooLongException {
         super(date, message);
     }
 
+    /**
+     * Instantiates a new Important tweet.
+     *
+     * @param message the message
+     * @throws TweetTooLongException the tweet too long exception
+     */
     public importantTweet(String message) throws TweetTooLongException {
         super(message);
     }

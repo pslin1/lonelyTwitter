@@ -62,7 +62,7 @@ public class ElasticsearchTweetController {
 
             String query = "{\n" +
                     "    \"query\" : {\n" +
-                   "       \"term\" : { \"tweet\": " + search_parameters[0] + "}" +
+                   "       \"term\" : { \"message\": " + '"' + search_parameters[0] + '"' + "}" +
                    "    }" +
                    "}";
 
